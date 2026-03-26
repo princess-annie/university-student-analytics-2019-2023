@@ -30,17 +30,17 @@ state of origin across 4 departments and 5 Nigerian states. The dataset was self
 * Created a new student_id column because there were a lot of data quality issue; i used Power Query
 * Worked on Inconsitent Capitalization, Inconsistent Formatting and Trailing Spaces
 * For Enrollment Date Column, it came in diff format, use a dax query to change it to one format
-            d = Text.Trim([Enrollment_Date]),
-    cleaned = Text.Replace(d, "/", "-"),
-    parsed = 
-        try Date.FromText(cleaned, [Format="yyyy-MM-dd"]) otherwise
-        try Date.FromText(cleaned, [Format="dd-MM-yyyy"]) otherwise
-        try Date.FromText(cleaned, [Format="MM-dd-yyyy"]) otherwise
-        try Date.FromText(cleaned, [Format="M-d-yyyy"]) otherwise
-        try Date.FromText(cleaned, [Format="d-M-yyyy"]) otherwise
-        null
-in
-    parsed),
+           - d = Text.Trim([Enrollment_Date]),
+   - cleaned = Text.Replace(d, "/", "-"),
+   - parsed = 
+       - try Date.FromText(cleaned, [Format="yyyy-MM-dd"]) otherwise
+      -  try Date.FromText(cleaned, [Format="dd-MM-yyyy"]) otherwise
+      -  try Date.FromText(cleaned, [Format="MM-dd-yyyy"]) otherwise
+       - try Date.FromText(cleaned, [Format="M-d-yyyy"]) otherwise
+      -  try Date.FromText(cleaned, [Format="d-M-yyyy"]) otherwise
+       - null
+- in
+    - parsed),
     
 * The Graduation Date was Inconsistent, used the below query to change it
             Date.Addyears([Enrollment_Date], [Duration])
