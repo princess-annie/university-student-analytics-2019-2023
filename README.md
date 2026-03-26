@@ -80,7 +80,8 @@ state of origin across 4 departments and 5 Nigerian states. The dataset was self
 
 2. In the Course of analysis, Graduation Rate shows that;
 - The 2019 and 2020 cohorts show 100% graduation rates because those students had completed their programs by the reporting period. 
-<img width="1117" height="619" alt="image" src="https://github.com/user-attachments/assets/b0f93160-974d-4257-8ee0-6b8c603a3d35" />
+<img width="1257" height="710" alt="image" src="https://github.com/user-attachments/assets/17c637c4-50ce-4dad-858c-669883ba74a6" />
+
 <img width="1249" height="702" alt="image" src="https://github.com/user-attachments/assets/07bea423-7c20-4cc9-be93-807784547c94" />
 
 - The graduation rate decline from 2021 onward dropping to 62.2% in 2021, 11.8% in 2022, and 0% in 2023  which does not indicate academic failure. 
