@@ -44,10 +44,10 @@ state of origin across 4 departments and 5 Nigerian states. The dataset was self
     - parsed),
     
 * The Graduation Date was Inconsistent, used the below query to change it
-- Date.Addyears([Enrollment_Date], [Duration])
-- if [Graduation_Date] = null
-- then Date.Addyears([Enrollment_Date], [Duration])
-- else [Graduation_Date]
+  - Date.Addyears([Enrollment_Date], [Duration])
+  - if [Graduation_Date] = null
+  - then Date.Addyears([Enrollment_Date], [Duration])
+  - else [Graduation_Date]
 
 * Replace Values in the GPA column from 35-3.5
   
