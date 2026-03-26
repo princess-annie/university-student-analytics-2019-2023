@@ -71,25 +71,28 @@ state of origin across 4 departments and 5 Nigerian states. The dataset was self
 * avg duration study
 
 ## Key Insights
-* Student Performance Overview 
+1. Student Performance Overview 
 - This page provides a high-level snapshot of the university's performance from 2019 to 2023. 
 - As of the latest data (2023), the university has enrolled 420 students, generated $310.5M in tuition revenue, 
 - maintained a 3.34 average GPA, and recorded an 83.1% average attendance rate across all departments. 
 - Use the Year and Department filters to explore how these numbers shift across different periods.
 <img width="1250" height="712" alt="image" src="https://github.com/user-attachments/assets/260dfc98-993d-4648-a4ad-49999c5c9ea6" />
 
-* In the Course of analysis, Graduation Rate shows that;
+2. In the Course of analysis, Graduation Rate shows that;
 - The 2019 and 2020 cohorts show 100% graduation rates because those students had completed their programs by the reporting period. 
+<img width="1117" height="619" alt="image" src="https://github.com/user-attachments/assets/b0f93160-974d-4257-8ee0-6b8c603a3d35" />
+<img width="1249" height="702" alt="image" src="https://github.com/user-attachments/assets/07bea423-7c20-4cc9-be93-807784547c94" />
+
 - The graduation rate decline from 2021 onward dropping to 62.2% in 2021, 11.8% in 2022, and 0% in 2023  which does not indicate academic failure. 
 - It reflects the fact that students enrolled in 2021, 2022, and 2023 are still actively studying and have not yet reached their graduation year.
 
-* Academic Analysis Insights examines how students are performing academically across all 4 departments. 
+3. Academic Analysis Insights examines how students are performing academically across all 4 departments. 
 - As of 2023, the university maintains a 3.34 average GPA and 83.1% attendance rate, with a high performance rate of 65.2% and 
 - a persistent underperforming rate of 20.5%. 
 - Use the filters to identify which departments are excelling and which ones need attention."
 <img width="1244" height="703" alt="image" src="https://github.com/user-attachments/assets/519ff227-7ac7-47f2-ba15-5175b78aa4f4" />
 
-* Enrollment Analysis
+4. Enrollment Analysis
 - Tracks where students are coming from and what courses are generating the most revenue.
 - As of 2023, 420 students have enrolled from 5 Nigerian states over the 5-year period, with an average study duration of 4 years 
 - and total tuition revenue of $310.5M. Use the Year and Department filters to see how enrollment patterns and revenue shift over time."
