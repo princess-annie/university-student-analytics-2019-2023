@@ -11,8 +11,8 @@ including GPA, attendance, graduation status, tuition revenue, department, enrol
 state of origin across 4 departments and 5 Nigerian states. The dataset was self-generated with chatgpt for analytical purposes.
 
 ## Tools Used
-Power BI
-DAX; important dax functions uses
+1. Power BI
+2. DAX; 
 * graduation Rate
 <img width="1190" height="141" alt="image" src="https://github.com/user-attachments/assets/740d189f-7559-4ffa-9eac-5e190ca66ade" />
 
@@ -25,7 +25,7 @@ DAX; important dax functions uses
 * Tuition Revenue 
 <img width="844" height="45" alt="image" src="https://github.com/user-attachments/assets/7e03189d-d762-4793-96ca-95c4355d9927" />
 
-- Data Cleaning:
+3. Data Cleaning:
 * Set and Correct data types
 * Created a new student_id column because there were a lot of data quality issue; i used Power Query
 * Worked on Inconsitent Capitalization, Inconsistent Formatting and Trailing Spaces
