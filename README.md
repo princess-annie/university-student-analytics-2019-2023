@@ -25,12 +25,13 @@ state of origin across 4 departments and 5 Nigerian states. The dataset was self
 * Tuition Revenue 
 <img width="844" height="45" alt="image" src="https://github.com/user-attachments/assets/7e03189d-d762-4793-96ca-95c4355d9927" />
 
-3. Data Cleaning:
+3. Data Cleaning(Power Query):
 * Set and Correct data types
 * Created a new student_id column because there were a lot of data quality issue; i used Power Query
 * Worked on Inconsitent Capitalization, Inconsistent Formatting and Trailing Spaces
 * For Enrollment Date Column, it came in diff format, use a dax query to change it to one format
-           - d = Text.Trim([Enrollment_Date]),
+
+  - d = Text.Trim([Enrollment_Date]),
    - cleaned = Text.Replace(d, "/", "-"),
    - parsed = 
        - try Date.FromText(cleaned, [Format="yyyy-MM-dd"]) otherwise
@@ -43,13 +44,13 @@ state of origin across 4 departments and 5 Nigerian states. The dataset was self
     - parsed),
     
 * The Graduation Date was Inconsistent, used the below query to change it
-            Date.Addyears([Enrollment_Date], [Duration])
-if [Graduation_Date] = null
-then Date.Addyears([Enrollment_Date], [Duration])
-else [Graduation_Date]
+- Date.Addyears([Enrollment_Date], [Duration])
+- if [Graduation_Date] = null
+- then Date.Addyears([Enrollment_Date], [Duration])
+- else [Graduation_Date]
 
 * Replace Values in the GPA column from 35-3.5
-
+  
 ## Key KPIs
 1. EXECUTIVE OVERVIEW
 * total students, 
