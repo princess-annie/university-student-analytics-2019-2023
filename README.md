@@ -104,4 +104,5 @@ and expanding it is the most efficient revenue growth strategy.
 are a reflection of the data generation process and may not represent real-world scenarios.
 
 
-
+## Detailed Analysis
+[Read the full article on Medium](https://medium.com/@princessjames563/introduction-every-university-tracks-enrollment-numbers-a28c36884fbd)
