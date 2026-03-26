@@ -90,6 +90,9 @@ state of origin across 4 departments and 5 Nigerian states. The dataset was self
 3. Academic Analysis Insights examines how students are performing academically across all 4 departments. 
 - As of 2023, the university maintains a 3.34 average GPA and 83.1% attendance rate, with a high performance rate of 65.2% and 
 - a persistent underperforming rate of 20.5%. 
+- Also, Most students maintain a GPA between 3.3 and 3.5 regardless of attendance, which shows attendance alone does not drive academic performance, While very low attendance below 70% is linked to weaker GPA which shows,high attendance does not guarantee strong grades either.
+<img width="543" height="236" alt="image" src="https://github.com/user-attachments/assets/46fa14ae-99f5-4bfd-9a8e-12eb37aa9243" />
+
 - Use the filters to identify which departments are excelling and which ones need attention."
 <img width="1244" height="703" alt="image" src="https://github.com/user-attachments/assets/519ff227-7ac7-47f2-ba15-5175b78aa4f4" />
 
